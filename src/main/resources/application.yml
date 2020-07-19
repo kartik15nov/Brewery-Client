@@ -1,0 +1,25 @@
+ub:
+  brewery:
+    apiHost: http://localhost:8080
+
+custom:
+  rest:
+    template:
+      maxTotal: 100
+      defaultMaxPerRoute: 20
+
+      connectionRequestTimeout: 3000
+      socketTimeout: 3000
+  nio:
+    rest:
+      template:
+        maxTotal: 1000
+        defaultMaxPerRoute: 100
+
+        connectionRequestTimeout: 3000
+        socketTimeout: 3000
+        ioThreadCount: 4
+
+logging:
+  level:
+    org.apache.http: debug

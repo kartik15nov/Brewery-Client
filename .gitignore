@@ -1,0 +1,108 @@
+### Project Specific ###
+/build/www/**
+/src/test/javascript/coverage/
+/src/test/javascript/PhantomJS*/
+
+### Node ###
+/node/
+node_tmp/
+node_modules/
+npm-debug.log.*
+
+### SASS ###
+.sass-cache/
+
+### Intellij ###
+.idea/
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
+
+### Visual Studio Code ###
+.vscode/
+
+### Eclipse ###
+*.pydevproject
+.project
+.metadata
+tmp/
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+.factorypath
+/src/main/resources/rebel.xml
+
+### Maven ###
+/log/
+*/target/**
+
+### Gradle ###
+.gradle/
+/build/
+
+### Gradle Wrapper ###
+!gradle/wrapper/gradle-wrapper.jar
+
+### Maven Wrapper ###
+!.mvn/wrapper/maven-wrapper.jar
+
+### Directories ###
+/bin/
+/deploy/
+
+### Logs ###
+*.log
+
+### Others ###
+*.class
+*.*~
+*~
+.merge_file*
+
+### Package Files ###
+*.jar
+*.war
+*.ear
+*.db
+
+# External tool builders
+.externalToolBuilders/**
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+
+### Windows ###
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+### Mac OSX ###
+.DS_Store
+.svn
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+### ESLint ###
+.eslintcache
+/.idea/
